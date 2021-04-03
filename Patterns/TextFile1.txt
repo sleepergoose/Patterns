@@ -1,0 +1,7 @@
+﻿            return doughnut switch
+            {
+                DoughnutEnum.Cherry => new CherryDoughnut(),
+                DoughnutEnum.Strawberry => new StrawberryDoughnut(),
+                DoughnutEnum.Banana => new BananaDoughnut(),
+                _ => throw new ApplicationException(message: "There is no such a doughnut type")
+            };
