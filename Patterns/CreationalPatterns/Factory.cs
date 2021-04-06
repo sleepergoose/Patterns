@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Patterns
+namespace Patterns.CreationalPatterns
 {
     /// <summary>
     /// Common interface for all vehicles

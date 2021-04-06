@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using Patterns.CreationalPatterns;
 
 namespace Patterns
 {
@@ -10,8 +11,8 @@ namespace Patterns
         {
 
 
-
-             SingletonWithLazyLoadingTest();
+            // Prototype.Test();
+            // SingletonWithLazyLoadingTest();
             // ThreadSafeSingletonWithoutLockTest();
             // ThreadSafeSingleton()
             // SingletonTest();
